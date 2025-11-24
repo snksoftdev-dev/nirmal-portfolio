@@ -88,10 +88,10 @@ const Hero: React.FC = () => {
           variants={itemVariants}
           className="flex flex-wrap justify-center gap-4"
         >
-          <button className="btn-primary">
+          {/* <button className="btn-primary">
             <Download size={20} />
             Download Resume
-          </button>
+          </button> */}
           <button className="btn-outline">
             <Github size={20} />
             GitHub
