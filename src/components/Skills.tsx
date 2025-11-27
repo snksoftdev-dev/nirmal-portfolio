@@ -120,8 +120,8 @@ const Skills: React.FC = () => {
             </h3>
             <div className="flex flex-wrap justify-center gap-3">
               {[
-                "Node.js", "SQL Server", "MongoDB", ".NET MVC", 
-                "CI/CD", "Jenkins", "GitHub Actions", "JWT", 
+                "Node.js", "SQL Server", ".NET MVC", 
+                "CI/CD", "Git", "JWT", 
                 "OAuth", "Lazy Loading", "Code Splitting", "Memoization"
               ].map((tech, index) => (
                 <motion.span
